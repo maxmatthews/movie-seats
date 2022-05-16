@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+
+.seat:nth-child(3),
+.seat:nth-child(7) {
+  margin-left: 10px;
+}
+
+#screen {
+  border: 1px solid black;
+  width: 275px;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.occupied {
+  color: red;
+}
+
+.selected {
+  color: blue;
+}
+
+.seat {
+  cursor: pointer;
+}
